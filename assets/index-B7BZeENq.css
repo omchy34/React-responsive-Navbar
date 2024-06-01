@@ -1,0 +1,1 @@
+*{margin:0;padding:0}.navLinks{display:flex;background-color:brown;padding:20px;justify-content:space-around}ul{list-style:none;display:flex;gap:40px}ul a{text-decoration:none;color:#f0f8ff}.menu,.cross{display:none}@media screen and (max-width: 480px){ul{display:none;flex-direction:column}.menu,.cross{display:block}.active{display:flex}}

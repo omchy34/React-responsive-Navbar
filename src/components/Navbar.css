@@ -1,0 +1,50 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.navLinks {
+    display: flex;
+    background-color: brown;
+    padding: 20px;
+    justify-content: space-around;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    gap: 40px;
+}
+
+ul a {
+    text-decoration: none;
+    color: aliceblue;
+}
+
+.menu {
+    display: none;
+}
+
+.cross {
+    display: none;
+}
+
+@media screen and (max-width: 480px) {
+
+    ul {
+        display: none;
+        flex-direction: column;
+    }
+
+    .menu {
+        display: block;
+    }
+
+    .cross {
+        display: block;
+    }
+
+    .active {
+        display: flex;
+    }
+}
